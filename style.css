@@ -7,7 +7,6 @@
     border: solid 1px green;
 }
 .chat-container{
-   
     margin: 2%;
     height: 90%;
     border: solid 1px red;
@@ -16,15 +15,56 @@
     max-width: 95%;
 }
 nav,aside{
-   
     flex-direction:column ;
-  
 }
 nav{
 width:30%  ;
 border: solid 1px yellow;
 }
+/* Profile  header  */
+.profile-box{
+    padding:8px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.profile-pic img{
+    width: 50px;
+    border-radius: 50%;
+}
+.profile-menu{
+    display: flex;
+    justify-content: space-between; 
+    width: 25%;
+}
+#start_msg{
+    width:30px
+}
+
+
 aside{
     border: solid 1px blue;
     width: 70%;
+}
+/* Message Header */
+.contact-info{
+    display:inherit;
+    flex-direction: column;
+}
+.message-header{
+    flex:none;
+}
+.contact-info{
+    flex-grow: 1;
+    margin: 0 15px;
+}
+.contact-names p{
+    font-size: larger;
+    padding-bottom:4px;
+}
+.contact-menu{
+    justify-content: space-evenly;
+    width:10%;
+    
 }
